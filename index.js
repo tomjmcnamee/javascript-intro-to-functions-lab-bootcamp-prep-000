@@ -1,3 +1,5 @@
+function doNothing() {}
+
 function shout(string) {
   return string.toUpperCase()
 }
@@ -26,6 +28,6 @@ else  if ( string === string.toUpperCase() ) {
     return "YES INDEED!";
   }
 else
-
+doNothing()
   
 }
